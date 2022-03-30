@@ -1,0 +1,128 @@
+main {
+    background: url(../Imagens/home\ 1.png) center top no-repeat;
+}
+main > article h2 {
+    margin:  0 100px 297px 969px;
+    padding-top: 166px;
+    width: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+
+}
+
+article h1 {
+    margin: 74px 305px;
+    padding-top: 74.82px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFA000;
+}
+
+
+
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.link-receita img {
+    width: 345px;
+    height: 342px;
+    display: flex;
+    justify-self: baseline;
+    margin: 0 0 12px;
+}
+
+.link-receita span {
+    display: block;
+    justify-content: center;
+    padding: 0 83px 0 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    width: 100%;
+    text-transform: lowercase;
+    margin: 0 0 24px;
+}
+
+.link-receita a {
+    color: #ffffff;
+    background: #176902;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 43px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.texto {
+    background: url(../Imagens/home\ 2.png) 50% 0;
+    padding: 163px 730px 107px 122px;
+    margin-top: 163px
+}
+
+.texto h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto p{
+    width: 424px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer {
+    display: flex;
+    justify-content: left;
+    background: #FFC107;
+    padding: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+footer img {
+    padding: 18px 38px 17px 6px;
+    margin: 0;
+}
+footer li {
+    padding: 51px 0 46px 0;
+    margin: 0;
+    list-style: none;
+}
